@@ -1,0 +1,60 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/component-compiler-utils": "^2.3.1",
+    "axios": "^0.18.0",
+    "file-loader": "^2.0.0",
+    "jquery": "^3.3.1",
+    "js-cookie": "^2.2.0",
+    "vue": "^2.5.21",
+    "vue-draggable": "^1.0.6",
+    "vue-js-modal": "^1.3.28",
+    "vue-loader": "^15.4.2",
+    "vue-router": "^3.0.2",
+    "vue-smooth-dnd": "^0.2.8",
+    "vue-stars": "^1.0.0",
+    "vuedraggable": "^2.17.0",
+    "vuesax": "^3.8.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
